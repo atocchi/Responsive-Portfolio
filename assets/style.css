@@ -1,0 +1,149 @@
+body {
+    background-image:url("background.png");
+    padding: 0;
+    overflow: auto;
+}
+.name {
+
+    justify-self: flex-start;
+    margin-right: auto;
+    height: 150%;
+    padding-left: 10px;
+    padding-Right: 10px;
+    font-size: 20px;
+    color: #ffffff ;
+    background: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+header {
+   
+    padding: 10px 10px;
+    font-size: 12px;
+    text-align: center;
+    color:  #4aaaa5 ;
+    background: #ffffff ;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 0%;
+    height: 5%;
+    width: 100%;
+    border: 5px;
+    border-color: #cccccc;
+    overflow: hidden;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px;
+    padding: 10px;
+    background: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 940px;
+    height: 5%;
+    top: 0%;
+    left: 50%;
+}
+    
+section {
+    margin: 20px;
+    padding: 10px;
+    color: #777777 ;
+    background: #ffffff ;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 940px;
+    height: 450px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 5px;
+    border-color: #dddddd;
+    overflow: inherit
+}
+footer {
+   
+    padding: 10px 10px;
+    margin: 10px;
+    font-size: 16px;
+    text-align: center;
+    color: #777777 ;
+    background: #666666 ;
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+    height: 20px;
+    border: 20px;
+    border-top: 10px solid #4aaaa5;
+    
+    
+    
+}
+
+.about {
+    justify-self: flex-end;
+    margin: 10px;
+    padding: 10px;
+
+}
+.portfolio {
+   justify-items: flex-end;
+   margin:10px;
+   padding:10px;
+  
+}
+.contact {
+    justify-self: flex-end;
+    margin: 10px;
+    margin-right: 30px;
+    padding: 10px;
+ 
+}
+a:link {
+    text-decoration: none;
+    color: #cccccc;
+}
+a:visited{
+
+    text-decoration: none;
+    color: #cccccc;
+}
+p {
+    
+}
+
+.dalton {
+margin: 10px;
+margin-bottom: 20px;
+float: left;
+}
+h2 {
+    color:  #4aaaa5 ;
+}
+#button {
+background-color: #4aaaa5;
+color: #ffffff;
+font-family: Arial, Helvetica, sans-serif
+}
+form {
+font-family: Arial, Helvetica, sans-serif;
+}
+.img {
+float: left;
+margin: 20px;
+position: relative;
+text-align: center;
+}
+.banner { position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #4aaaa5;
+    color: #ffffff;
+    width: 100%;
+    height: 30%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20;
+}
