@@ -1,16 +1,12 @@
+
 body {
     background-image:url("background.png");
     padding: 0;
     overflow: auto;
 }
 .name {
-
-    justify-self: flex-start;
-    margin-right: auto;
-    height: 150%;
-    padding-left: 10px;
-    padding-Right: 10px;
-    font-size: 20px;
+    margin-left: 5%;
+    padding: 20px;
     color: #ffffff ;
     background: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -30,37 +26,38 @@ header {
     width: 100%;
     border: 5px;
     border-color: #cccccc;
-    overflow: hidden;
+    
 }
 
 .navbar {
     display: flex;
-    justify-content: flex-end;
-    margin: 20px;
+    justify-content: space-between;
     padding: 10px;
     background: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
-    width: 940px;
+    width: 100%;
     height: 5%;
     top: 0%;
     left: 50%;
+    text-align: center;
+    margin-bottom: 20px;
 }
     
 section {
+   
     margin: 20px;
+    margin-left: 5%;
     padding: 10px;
     color: #777777 ;
     background: #ffffff ;
     font-family: Arial, Helvetica, sans-serif;
-    width: 940px;
-    height: 450px;
+    width: 60%;
+    height: 72%;
     position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+    
     border: 5px;
     border-color: #dddddd;
-    overflow: inherit
+    overflow: inherit;
 }
 footer {
    
@@ -82,24 +79,22 @@ footer {
     
 }
 
+.links {
+margin-left: 20%;
+flex: auto;
+justify-self: right;
+}
+
 .about {
-    justify-self: flex-end;
-    margin: 10px;
-    padding: 10px;
+   
 
 }
 .portfolio {
-   justify-items: flex-end;
-   margin:10px;
-   padding:10px;
+   
   
 }
 .contact {
-    justify-self: flex-end;
-    margin: 10px;
-    margin-right: 30px;
-    padding: 10px;
- 
+    
 }
 a:link {
     text-decoration: none;
@@ -136,6 +131,18 @@ margin: 20px;
 position: relative;
 text-align: center;
 }
+.dalton {
+height: 200px;
+width: 200px;
+}
+.grey {
+    height: 150px;
+    width: 150px;
+
+}
+
+
+
 .banner { position: absolute;
     top: 70%;
     left: 50%;
@@ -146,4 +153,109 @@ text-align: center;
     height: 30%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20;
+}
+input {
+    width: 80%;
+}
+#subject {
+    width: 80%;
+    height: 200px;
+}
+#button {
+    width: 10%;
+}
+@media screen and (max-width: 980px) {
+    
+}
+@media screen and (max-width: 768px) {
+.name {
+    margin-left: 2%;
+    padding: 40px;
+}
+ section {
+    width: 90%;
+    margin-left: 2%;
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+}
+
+@media screen and (max-width: 640px) {
+    header {
+    width: 100%;
+    text-align: unset;
+    }
+   
+   
+    .navbar {
+    width: 100%;
+    flex-direction: column;
+    height: 7%;
+    padding-bottom: 20px;
+    }
+    .name {
+    width: 100%;
+    left: 0%;
+    margin-left: 0%;
+
+    
+    }
+    .about{
+    
+    }
+    .portfolio{
+  
+    }
+    .contact {
+    margin-right: 0;
+    }
+    section {
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    }
+    .banner {
+        width: 400px;
+        height: 30px;
+    }
+    .dalton {
+    height: 400px;
+    width: 85%;
+    float: none;
+
+   
+    }
+    p {
+    margin: 20%;
+    margin-top: 10px;
+    }
+    .grey {
+    width: 400px;
+    height: 400px;
+
+    }
+    .links 
+    {
+        padding: 5px;
+        margin-left: 0%;
+    }
+    #subject {
+        height: 150px;
+    }
+    footer {
+        height: 8px;
+        margin-bottom: 0px;
+    }
+    
 }
